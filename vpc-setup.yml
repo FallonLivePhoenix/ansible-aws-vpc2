@@ -1,7 +1,7 @@
 - hosts: localhost
   connection: local
   gather_facts: False
-  task:
+  tasks:
     - name: import VPC Variables
       include_vars: vars/vpc_setup
 
